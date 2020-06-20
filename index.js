@@ -12,7 +12,6 @@ const produtos = [{
     situacao: ""
 }]
 
-// LOOP 
 
 for (let i = 0; i < produtos.length; i++) {
     produtos[i].precoTotal = produtos[i].quantidade * produtos[i].valorUnitario
@@ -24,5 +23,3 @@ for (let i = 0; i < produtos.length; i++) {
 }
 
 server.listen(3333)
-
-// http://localhost:3333
